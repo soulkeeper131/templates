@@ -952,13 +952,17 @@
 			"platform": "linux",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
 			"repository": {
-				"url": "https://github.com/portainer/templates",
+				"url": "https://github.com/soulkeeper131/templates",
 				"stackfile": "stacks/wordpress/docker-stack.yml"
 			},
 			"env": [{
 				"name": "MYSQL_DATABASE_PASSWORD",
 				"label": "Database root password",
 				"description": "Password used by the MySQL root user."
+				
+				"name2": "MYSQL_DATABASE_PASSWORD2",
+				"label": "Database root password2",
+				"description": "Password used by the MySQL root user.2"
 			}]
 		},
 		{
@@ -972,13 +976,17 @@
 			"platform": "linux",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
 			"repository": {
-				"url": "https://github.com/portainer/templates",
+				"url": "https://github.com/soulkeeper131/templates",
 				"stackfile": "stacks/wordpress/docker-compose.yml"
 			},
 			"env": [{
 				"name": "MYSQL_DATABASE_PASSWORD",
 				"label": "Database root password",
 				"description": "Password used by the MySQL root user."
+				
+				"name2": "MYSQL_DATABASE_PASSWORD2",
+				"label": "Database root password2",
+				"description": "Password used by the MySQL root user.2"
 			}]
 		},
 		{
@@ -1053,7 +1061,7 @@
 	    "title": "Wordpress",
 	    "description": "Wordpress setup with a MySQL database",
 	    "note": "Deploys a Wordpress instance connected to a MySQL database.",
-	    "stackfile": "https://raw.githubusercontent.com/portainer/templates/master/stacks/wordpress/edge/docker-stack.yml"
+	    "stackfile": "https://raw.githubusercontent.com/soulkeeper131/templates/master/stacks/wordpress/edge/docker-stack.yml"
 	  },
 	  {
 	    "type": 4,
